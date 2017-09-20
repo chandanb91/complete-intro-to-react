@@ -5,9 +5,6 @@ import Landing from './Landing';
 import Search from './Search';
 
 const fourOnFour = () => <h1>404</h1>;
-const test = true;
-
-
 
 const App = () => (
   <BrowserRouter>
