@@ -4,7 +4,13 @@ import preload from '../public/data.json';
 
 const Search = () => (
   <div className="search">
-    {preload.shows.map(show => <ShowCard {...show} />)}
+    <header>
+      <h1>CWS</h1>
+      <input type="text" placeholder="Search" />
+    </header>
+    <div>
+      {preload.shows.map(show => <ShowCard key={show.imdbID} {...show} />)}
+    </div>
   </div>
 );
 
