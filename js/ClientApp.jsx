@@ -10,7 +10,7 @@ const App = () => (
   <BrowserRouter>
     <div className="app">
       <Switch>
-        <Route exact path="/" component={Landing} />
+        <Route exactPath="/" component={Landing} />
         <Route path="/search" component={Search} />
         <Route component={fourOnFour} />
       </Switch>
